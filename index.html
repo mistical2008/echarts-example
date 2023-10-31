@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Line Chart - Apache ECharts Demo</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="chart-container"></div>
+    <div id="serie-togglers"></div>
+    <form id="scale-inputs">
+      <button type="submit" style="display: none;">submit</button>
+    </form>
+
+    <div>
+      <button id="toggle-axis-1" data-id="0">Toggle axis 1</button>
+      <button id="toggle-axis-2" data-id="1">Toggle axis 2</button>
+    </div>
+
+    <script src="https://fastly.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
